@@ -1,0 +1,186 @@
+.main{
+    width: 1226px;
+    margin: 0 auto;
+    height: 5668.6px;
+}
+
+.titulo, .navegacao, .sobre, .imagens, .arma, .hardware, .videos, .grupo, .robocupp, .contato, .rodape{
+    width: 1226px;
+}
+
+.titulo{
+    width: 200px;
+    height: 24.6px;
+    margin-left: 6.6px;
+    margin-top: 13.3px;
+    font-size: 0.66em;
+}
+
+.robson{
+    text-align: left;
+    float: left;
+    margin: 0;
+    margin-left: 6.6px;
+}
+
+.navegacao{
+    width: 900.3px;
+    height: 24.6px;
+    margin-top: 10px;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10{
+    margin-right: 6.6px;
+    margin-top: 5.33px;
+}
+
+h3{
+    margin-left: 26,6px;
+}
+
+.sobre{
+    height: 380px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.sobre h3{
+    margin-top: 33.3px
+}
+
+.sobre p{
+    width: 600px;
+}
+
+.krl{
+    margin-left: 170px;
+    margin-right: 320px;
+}
+
+.tatu{
+    margin-left: 100px;
+    margin-right: 320px;
+
+}
+
+img{
+    width: 800px;
+    height: 500px;    
+}
+
+.navegacao2{
+    margin-left: 350px;
+}
+
+.slide{
+    width: 1500px;
+    transition: .6s;
+}
+
+.arma{
+    height: 500px;
+}
+
+.descricao, .funcionamento{
+    width: 632px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-left: 317px
+}
+
+.descricao h4, .funcionamento h4{
+    font-size: 1em;
+}
+
+.descricao p, .funcionamento p{
+    width: 390px;
+    margin-left: 110px;
+    font-size: 1em;
+}
+
+.hardware{
+    height: 700px;
+}
+
+.material{
+    margin-left: 333px;
+}
+
+.videos{
+    height: 500px;
+    background: linear-gradient(72deg, #1565C0 1%, #b92b27 99%);
+    float: left;
+    text-align: center;
+}
+
+.construcao{
+    width: 420px;
+    height: 320px;
+    margin-left: 131px;
+}
+
+.movimentacao{
+    width: 420px;
+    height: 320px;
+    margin-left: 131px;
+}
+
+iframe{
+    width: 369px;
+    height: 207px;
+}
+
+.grupo{
+    height: 594px;
+}
+
+.grupo h3{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 33px;
+}
+
+.Igor, .Larissa, .Renato{
+    margin-left: 165px;
+}
+
+.igorF, .larissaF, .renatoF{
+    width: 198px;
+    height: 264px;
+}
+
+.robocupp{
+    height: 900px;
+    background: linear-gradient(72deg, #bfe9ff 1%, #ff6e7f 99%);
+    float: left;
+}
+
+.robotica, .next{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 313px;
+    border: black;
+}
+
+.investimento{
+    width: 1226px;
+    height: 1300px;
+}
+
+.cliente, .vantagem, .beneficio{
+    margin-left: 218.25px;
+    width: 789.5px;
+}
+
+.vantagem li{
+    list-style: decimal;
+    margin-bottom: 40px;
+}
+
+.cliente h3, .vantagem h3, .beneficio h3{
+    margin-left: 0;
+}
+

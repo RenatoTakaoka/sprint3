@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>MIFIAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link rel="stylesheet" href="css/desktop.css" media="screen">
+    <link rel="stylesheet" href="css/notebook.css" media="screen and (max-width:1280px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:850px)">
+    <link rel="stylesheet" href="css/celular.css" media="screen and (max-width:650px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="titulo">
+            <h1 class="robson">Rob-Son</h1>
+            <br style="float:both">
+        </div>
+
+        <div class="navegacao">
+
+            <div class="btn1">
+                <a href="#sobre">Sobre</a>
+            </div>
+            <div class="btn2">
+                <a href="#imagens">Imagens</a>
+            </div>
+            <div class="btn3">
+                <a href="#arma">Arma</a>
+            </div>
+            <div class="btn4">
+                <a href="#hardware">Hardware</a>
+            </div>
+            <div class="btn5">
+                <a href="#videos">Videos</a>
+            </div>
+            <div class="btn6">
+                <a href="#grupo">Grupo</a>
+            </div>
+            <div class="btn7">
+                <a href="#robocup">Robocup e Next</a>
+            </div>
+            <div class="btn9">
+                <a href="#investimento">Diferencial</a>
+            </div>
+            <div class="btn10">
+                <a href="#contato">Contato</a>
+            </div>
+            <br style="float:both">
+        </div>
+
+        <div class="sobre" id="sobre">
+            <h3 class="txt1">
+                SOBRE
+            </h3>
+            <p>
+                A nossa empresa utiliza o método construir-medir-aprender, ou seja, trabalhamos com hipóteses. Estas que passarão por diversos processos como:  
+                Beneficios para empresa;
+                Analise sobre a sua relação com os princípios da empresa;
+                Pesquisas sobre oferta e demanda;
+                Custos de produção;
+                Possíveis parcerias;
+                Valor de venda coerente;
+                Caso o produto se encaixe e esteja alinhado com todos esses tópicos, serão realizados testes, na qual inicialmente faremos questionários a clientes e obteremos as suas reações iniciais. A partir desses testes iremos aprender, aperfeiçoar e repetir o mesmo processo novamente, até conseguirmos chegar no melhor produto possível.
+
+                Além disso, buscaremos por funcionários que tenham os mesmos objetivos que os nossos, visando sempre a longevidade deles na nossa empresa, com o objetivo de conseguir uma confiança recíproca. Entretanto isso não impede a aquisição de novos funcionários, uma vez que estes trazem ideias diferentes e que irão agregar no crescimento constante da nossa empresa.
+            </p>
+            <br style="float:both">
+        </div>
+
+        <div class="imagens" id="imagens">
+            <h3>
+                IMAGENS
+            </h3>
+            <p>
+                A seguir temos algumas imagens tiradas do rob-son
+            </p>
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img class="krl" src="imagens/6.jpeg" alt="Robo visto de cima" width="800px" height="400px">
+                </div>
+                <div class="slide">
+                    <img class="tatu" src="imagens/5.jpeg" alt="Robo visto de frente" width="800px" height="400px">
+                </div>
+                <div class="slide">
+                    <img class="tatu" src="imagens/4.jpeg" alt="Robo visto de cima com a arma armada" width="800px" height="400px">
+                </div>
+                <div class="slide">
+                    <img class="tatu" src="imagens/3.jpeg" alt="Robo visto do lado esquerdo" width="800px" height="400px">
+                </div>
+                <div class="slide">
+                    <img class="tatu" src="imagens/1.jpeg" alt="Robo visto de trás" width="800px" height="400px">
+                </div>
+
+                <div class="navegacao2">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+            </div>
+            <br style="float:both">
+        </div>
+
+        <div class="arma" id="arma">
+            <h3>
+                ARMA
+            </h3>
+
+            <div class="descricao">
+                <h4>
+                    DESCRIÇÃO
+                </h4>
+                <p>
+                    A arma foi feita a partir de um motor de 150rpm, na qual foi colocado em sua ponta um hashi de madeira com uma bola de isopor, que por sua vez possui agulhas em suas extremidades. O motor foi programado utilizando o arduino uno r3, possibilitando sua ativação e recolhimento.
+                </p>
+            </div>
+
+            <div class="funcionamento">
+                <h4>
+                    FUNCIONAMENTO
+                </h4>
+                <p>
+                    Ela é ativada a partir de chaves de fim de curso (sensores), que são ativadas ao entrar em contato com alguma superficie (outro robô ou a lateral da arena). Estas estão localizadas na parte frontal e traseira.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="hardware" id="hardware">
+            <h3>
+                HARDWARE
+            </h3>
+            <div class="material">
+                <p>
+                    Para realizar a montagem do Rob-Son, utilizamos diversos materiais, que foram parte comprados pelos intergrantes, e parte fornecido pela FIAP.
+                </p>
+                <ul>
+                    <li> 1x Madeira MDF 29cmX26cm</li>
+                    <li> 1x Arduino UNO R3</li>
+                    <li> 1x Motor shield L293D</li>
+                    <li> 1x Shield Bluetooth HC-06</li>
+                    <li> 2x Motores DC 3V a 6V 200RPM com roda</li>
+                    <li> 2x Motores DC 5V/150 RPM</li>
+                    <li> 1x Soquete de pilhas AA</li>
+                    <li> 10x Fios jumpers MF</li>
+                    <li> 1x Chave de liga/desliga</li>
+                    <li> 4x Chaves de fim de curso</li>
+                    <li> 1x Led de 3mm</li>
+                    <li> 1x caixa pequena de plastico</li>
+                    <li> 2x rodas bobas</li>
+                    <li> 1x Hashi de madeira</li>
+                    <li> 1x Bola de isopor</li>
+                    <li> 4x Agulhas</li>
+                    <li> 1x Resistor de 390Ohmns</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="videos" id="videos">
+            <h3>
+                VIDEOS
+            </h3>
+            <div class="construcao">
+                <h4>
+                    Construção
+                </h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8y1OzJ3kEnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+
+            <div class="movimentacao">
+                <h4>
+                    Movimentação
+                </h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mGmEQGOYhSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="grupo" id="grupo">
+            <h3>
+                EQUIPE
+            </h3>
+            <div class="Igor">
+                <img class="igorF" src="imagens/igor.jpeg" alt="Foto do integrante Igor">
+                <h4>
+                    Igor
+                </h4>
+                <p>
+                    Diretor criativo
+                </p>
+            </div>
+
+            <div class="Larissa">
+                <img class="larissaF" src="imagens/larissa.jpeg" alt="Foto da integrante Larissa">
+                <h4>
+                    Larissa
+                </h4>
+                <p>
+                    Diretora de marketing
+                </p>
+            </div>
+
+            <div class="Renato">
+                <img class="renatoF" src="imagens/renato.jpeg" alt="Foto do integrante Renato">
+                <h4>
+                    Renato
+                </h4>
+                <p>
+                    Front-End Dev
+                </p>
+        </div>
+
+        <div class="robocupp" id="robocup">
+            <div class="robotica">
+                <h3>
+                    ROBOCUP
+                </h3>
+                <p>
+                    A Robocup nada mais é do que um projeto elaborado pelos alunos do primeiro ano do curso de Sistemas de Informação que tem como base a construção de um robô que irá duelar contra outros, com o objetivo de estourar o balão do adversário e expandir novas habilidades, como de eletrônica, eletricidade básica, programação e trabalho em equipe. 
+                </p>
+            </div>
+            <div class="next">
+                <h3>
+                    NEXT
+                </h3>
+                <p>
+                    O NEXT é o Festival de Tecnologia e Inovação que reune mais de dois mil jovens talentos da FIAP apresentando suas melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. 
+                </p>
+            </div>
+
+        <div class="investimento" id="investimento">
+            <div class="investir">
+                <div class="cliente">
+                    <h3>
+                        Conhecemos o cliente
+                    </h3>
+                    <p>
+                        Uma empresa só pode ter um diferencial competitivo se ela conhecer o perfil do consumidor e a MIFIAP estará sempre atenta aos padrões de comportamento, além de ser flexível em receber críticas
+                    </p>                   
+                    <p>
+                        A partir de uma pesquisa realizada pela nossa empresa, notamos que o nosso público-alvo são principalmente jovens, entretanto vemos que estes não são nossos únicos possiveis consumidores, já que diversos adultos e idosos também tem interesse em nossos produtos.
+                    </p>
+                    <img class="grafico" src="imagens/grafico.png" alt="Gráfico investimento em função da idade">
+                </div>
+                <div class="beneficio">
+                    <h3>
+                        Custo-benefício
+                    </h3>
+                    <p>
+                        Como utilizamos materiais de baixo orçamento, o rob-son é acessível para uma gama gigantesca de pessoas, aumentanto ainda mais nossa capacidade de venda.
+                    </p>
+                </div>
+                <div class="vantagem">
+                    <h3>
+                        Vantagens
+                    </h3>
+                    <ul>
+                        <li>Estimula o desenvolvimento do raciocínio lógico: Por ser desenvolvido a partir de treino, é necessário uma abordagem prática, que é a premissa da robótica educativa.</li>
+                        <li>Estimula a criatividade: o trabalho com as máquinas proporciona novas experiências e momentos com descobertas sobre o mundo da tecnologia.</li>
+                        <li>Aprendizagem fica mais atrativa: por não precisar de um alto nível de programação e conhecimento, qualquer pessoa pode participar.</li>
+                        <li>Trabalho em equipe: o resultado depende do time, que aprende a trabalhar junto, desenvolvendo habilidades de comunicação aos alunos.</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="contato" id="contato">
+            <h3>
+                ENTRE EM CONTATO
+            </h3>
+            <form>
+                <fieldset class="batman">
+                    <div class="campo">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="sobrenome"><strong>Empresa</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                    <div class="campo">
+                        <label for="email"><strong>Email</strong></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="sobrenome"><strong>Assunto</strong></label>
+                        <input type="text" name="assunto" id="assunto" required>
+                    </div>
+                    <div class="campo">
+                        <br>
+                        <label for="experiencia"><strong>Mensagem</strong></label>
+                        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                    </div>
+                    <button class="botao" type="submit" onsubmit=""> ENVIAR </button>
+        </div>
+
+        <div class="rodape">
+            <p>
+                Faculdade de bacharelado fiap, turma 2022
+            </p>
+            <p>
+                Endereço: Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000
+            </p>
+        </div>
+    
+    </div>
+
+</body>
+
+</html>

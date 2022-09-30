@@ -1,0 +1,392 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1900px;
+    height: 5597px;
+    padding-bottom: 0px;
+    background-color: white;
+    margin-top: 0px;
+    float: left;
+}
+
+.titulo{
+    width: 300px;
+    height: 37px;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    color: black;
+    margin-top: 20px;
+}
+
+.robson{
+    text-align: left;
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.navegacao{
+    color: black;
+    background-color: white;
+    float: left;
+    width: 1000px;
+    height: 37px;
+    margin-top: 20px;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+.btn1{
+    margin-left: 7px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover, .tn9:hover, .btn10:hover{
+    background-color: #E7EAED;
+}
+
+h3{
+    margin-left: 40px;
+    font-size: 2em;
+}
+
+.sobre{
+    width: 1900px;
+    height: 400px;
+    background: linear-gradient(72deg, #3DE880 1%, #8956F3 99%);
+    float: left;
+    text-align: center;
+}
+
+.sobre h3{
+    margin-top: 50px
+}
+
+.sobre p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.imagens{
+    width: 1900px;
+    height: 700px;
+    background: linear-gradient(72deg, yellow 1%, blue 99%);
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.krl{
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.tatu{
+    margin-left: 550px;
+    margin-right: 550px;
+
+}
+
+img{
+    width: 800px;
+    height: 500px;    
+    border-radius: 20px;
+    margin-bottom: 800px;
+}
+
+.navegacao2{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 400px;
+    display: flex;
+    float: none;
+}
+
+.bar{
+    width: 100px;
+    height: 25px;
+    border: 2px solid #fff;
+    margin: 6px ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bar:hover{
+    background-color: #fff;
+}
+
+.slides input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 7080px;
+    height: 100%;
+}
+
+.slide{
+    width: 1500px;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -1500px;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -3000px;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -4500px;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -6000px;
+}
+
+.arma{
+    width: 1900px;
+    height: 400px;
+    background: linear-gradient(72deg, yellow 1%, red 99%);
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+.descricao, .funcionamento{
+    width: 950px;
+    height: 300px;
+    float: left;
+}
+
+.descricao h4, .funcionamento h4{
+    font-size: 1.5em;
+}
+
+.descricao p, .funcionamento p{
+    width: 600px;
+    margin-left: 175px;
+    font-size: 1.3em;
+}
+
+.hardware{
+    width: 1900px;
+    height: 700px;
+    background: linear-gradient(72deg, #00dbde 1%, #fc00ff 99%);
+    float: left;
+    font-family: 'Merriweather', serif;
+}
+
+.hardware h3{
+    text-align: center;
+}
+
+.material{
+    width: 600px;
+    margin-left: 650px;
+}
+
+li{
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.videos{
+    width: 1900px;
+    height: 600px;
+    background: linear-gradient(72deg, #1565C0 1%, #b92b27 99%);
+    float: left;
+    text-align: center;
+}
+
+.construcao{
+    width: 600px;
+    height: 440px;
+    background: linear-gradient(72deg, #1565C0 1%, #b92b27 99%);
+    margin-left: 230px;
+    float: left;
+}
+
+.movimentacao{
+    width: 600px;
+    height: 440px;
+    background: linear-gradient(72deg, #1565C0 1%, #b92b27 99%);
+    float: left;
+    margin-left: 230px;
+}
+
+.construcao h4, .movimentacao h4{
+    font-size: 1.5em;
+}
+
+.grupo{
+    width: 1900px;
+    height: 900px;
+    background: linear-gradient(72deg, #FFA17F 1%, #00223E 99%);
+    float: left;
+}
+
+.grupo h3{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.Igor, .Larissa, .Renato{
+    float: left;
+    margin-left: 250px;
+    border: linear-gradient(72deg, #FFA17F 1%, #00223E 99%);
+    border-color: linear-gradient(72deg, #FFA17F 1%, #00223E 99%);
+}
+
+.Igor h4, .Larissa h4, .Renato h4, .Igor p, .Larissa p, .Renato p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.igorF, .larissaF, .renatoF{
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    float: left;
+}
+
+.robocupp{
+    width: 1900px;
+    height: 450px;
+    background: linear-gradient(72deg, #bfe9ff 1%, #ff6e7f 99%);
+    float: left;
+}
+
+.robotica, .next{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 230px;
+    border: black;
+}
+
+.robotica h3, .next h3{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.robotica p, .next p{
+    margin: 20px;
+    text-justify: auto;
+    font-size: 1.2em;
+}
+
+.investimento{
+    width: 1900px;
+    height: 1090px;
+    float: left;
+    text-align: center;
+    background: linear-gradient(72deg, #a8ff78 1%, #78ffd6 99%);
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.cliente, .vantagem{
+    width: 1200px;
+    height: 500px;
+    margin-left: 350px;
+}
+
+.cliente{
+    float: left;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.grafico{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.beneficio{
+    width: 1200px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.contato{
+    width: 1900px;
+    height: 690px;
+    background: linear-gradient(72deg, #FDC830 1%, #F37335 99%);
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+}
+
+fieldset{
+    border: 0;
+}
+
+.batman{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.batman input, select, textarea, button{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.rodape{
+    width: 1900px;
+    height: 80px;
+    float: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding-top: 10px;
+    align-items: flex-end;
+    margin-right: 30px;
+}

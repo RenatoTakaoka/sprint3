@@ -1,0 +1,205 @@
+.main{
+    width: 817px;
+}
+
+.titulo, .navegacao, .sobre, .imagens, .arma, .hardware, .videos, .grupo, .robocupp, .contato, .rodape{
+    width: 817px;
+}
+
+.titulo{
+    width: 100px;
+    height: 16.4px;
+    margin-left: 6.6px;
+    margin-top: 13.3px;
+    font-size: 0.66em;
+}
+
+.robson{
+    text-align: left;
+    float: left;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.navegacao{
+    width: 675px;
+    height: 24.6px;
+    margin-top: 10px;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10{
+    margin-right: 10px;
+    margin-top: 4px;
+    font-size: 0.8em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.btn1{
+    margin-left: 2px;
+}
+
+.krl{
+    margin-left: 28.3px;
+    margin-right: 106.6px;
+}
+
+.tatu{
+    margin-left: 13.3px;
+    margin-right: 106.6px;
+}
+
+img{
+    width: 750px;
+    height: 465px;    
+}
+
+.navegacao2{
+    margin-left: 140px;
+}
+
+.slides{
+    display: flex;
+    width: 4085px;
+    height: 100%;
+}
+
+.slide{
+    width: 1200px;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -1110px;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -2550px;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -3750px;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -4950px;
+}
+
+.descricao, .funcionamento{
+    width: 417px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    margin-left: 198px;
+}
+
+.descricao p, .funcionamento p{
+    width: 462px;
+    margin-left: 1px;
+    font-size: 1em;
+}
+
+.hardware{
+    height: 780px;
+}
+
+.hardware h3{
+    margin-bottom: 20px
+}
+
+.hardware p{
+    margin-bottom: 50px;
+}
+
+.material{
+    width: 350px;
+    margin-left: 250px;
+}
+
+.videos{
+    height: 850px;
+    background: linear-gradient(72deg, #1565C0 1%, #b92b27 99%);
+    float: left;
+    text-align: center;
+}
+
+.construcao{
+    width: 420px;
+    height: 320px;
+    margin-left: 200px;
+    margin-bottom: 79.2px;
+}
+
+.movimentacao{
+    margin-left: 200px;
+}
+
+.grupo{
+    height: 1200px;
+}
+
+.grupo h3{
+    font-size: 1em;
+    margin-bottom: 16.5px;
+}
+
+.Igor, .Larissa, .Renato{
+    float: left;
+    margin-left: 325px;
+    border: linear-gradient(72deg, #FFA17F 1%, #00223E 99%);
+    border-color: linear-gradient(72deg, #FFA17F 1%, #00223E 99%);
+}
+
+.Igor h4, .Larissa h4, .Renato h4, .Igor p, .Larissa p, .Renato p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.robocupp{
+    height: 900px;
+    background: linear-gradient(72deg, #bfe9ff 1%, #ff6e7f 99%);
+    float: left;
+}
+
+.robotica, .next{
+    width: 399px;
+    height: 399px;
+    margin-top: 45px;
+    float: left;
+    margin-left: 208px;
+    border: black;
+    text-align: justify;
+}
+
+.next h3, .robotica h3{
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.robotica h3, .next h3{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.investimento{
+    width: 817px;
+    height: 1500px;
+    margin-left: 0px;
+    font-size: 1.3em;
+}
+
+.cliente, .vantagem, .beneficio{
+    width: 526px;
+    margin-left: 145.5px;
+}
+
+.cliente{
+    margin-bottom: 200px;
+}
